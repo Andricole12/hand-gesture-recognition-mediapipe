@@ -25,7 +25,7 @@ def get_args():
 
     parser.add_argument('--use_static_image_mode', action='store_true')
     parser.add_argument("--min_detection_confidence",
-                        help='min_detection_confidence',
+                        help='min_detection5_confidence',
                         type=float,
                         default=0.7)
     parser.add_argument("--min_tracking_confidence",
